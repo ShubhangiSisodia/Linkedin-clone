@@ -6,9 +6,8 @@
 </template>
 
 <script>
-import { useStore } from "pinia";
+import { useStore } from "./Pinia";
 import { defineComponent } from "vue";
-import { Router } from "vue-router";
 
 export default defineComponent({
   name: "App",
