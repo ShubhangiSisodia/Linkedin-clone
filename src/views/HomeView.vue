@@ -1,13 +1,5 @@
-<script setup lang="ts">
-import TheButton from '@/components/TheButton.vue'
-
-const buttonClick = () => {
-  alert('button clicked')
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <TheButton @click="buttonClick"> Hello world </TheButton>
-  </main>
+  <main></main>
 </template>
